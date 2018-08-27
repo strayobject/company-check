@@ -1,0 +1,32 @@
+{
+  "name": "strayobject/companyCheck",
+  "description": "Library for searching for or checking of company names or numbers against national APIs",
+  "keywords": [
+    "company",
+    "company search",
+    "company check",
+    "companies house",
+    "companies registration office"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michal Zdrojewski",
+      "email": "code@strayobject.co.uk"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "netsensia/companieshouse-api-php-client": "^0.3.1",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master",
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Strayobject\\CompanyCheck\\": "src/"
+    }
+  }
+}
